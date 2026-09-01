@@ -1,0 +1,52 @@
+include<iostream>
+using namespace std;
+class book
+{
+public:
+ int id;
+ string Name;
+ float Price;
+ string Language;
+
+
+void display()
+{
+ cout<<"ID of the Book:";
+ cin>>id;
+
+ cout<<"Name of the Book:";
+ cin>>Name;
+
+ cout<<"Price of the Book is:";
+ cin>>Price;
+
+ cout<<"Language of the Book:";
+ cin>>Language;
+
+}
+};
+ int main()
+{
+
+ book b1;
+ book b2;
+
+ b1.id;
+ b1.Name;
+ b1.Price;
+ b1.Language;
+ b1.display();
+
+ b2.id;
+ b2.Name;
+ b2.Price;
+ b2.Language;
+ b2.display();
+
+ return 0;
+}
+
+
+
+
+
